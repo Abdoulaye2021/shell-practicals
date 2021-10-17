@@ -1,0 +1,60 @@
+    1  ls
+    2  mkrdir unix
+    3  mkdir unix
+    4  touch foo.txt
+    5  cd unix
+    6  touch foo.txt
+    7  cp foo.txt foo.txt.copy
+    8  mv foo2 data
+    9  mv data/foo2 new 
+   10  cd data; mv foo2 ../new
+   11  ls
+   12  mv data/foo2 new 
+   13  ls
+   14  ls
+   15  mkdir unix
+   16  cd unix
+   17  touch foo.txt
+   18  mv foo.txt.copy foo2 
+   19  cp foo.txt. foo-copy.txt 
+   20  ls
+   21  cp foo.txt foo-copy.txt 
+   22  mv foo-copy.txt foo2.txt
+   23  mkdir data
+   24  mv foo2 data
+   25  mv foo2.txt data
+   26  mkdir new
+   27  mv data/foo2 new 
+   28  mv data/foo2.txt new 
+   29  mv new/foo2.txt foo.old.txt
+   30  rm foo.old.txt
+   31  rmdir new
+   32  history
+   33  exo1.txt
+   34  history exo1.txt
+   35  history>> exo1.txt
+   36  ls -a
+   37  cd
+   38  ls-a
+   39  ls -a
+   40  ls
+   41  #on plus de fichier qui sont les fichiers commencant par.
+   42  ls -R
+   43  wc
+   44  wc -l
+   45  history>>exoé.txt
+   46  history>>exo1.txt
+   47  ls -a
+   48  # ls -a nous montre les fichiers cache ave au debut un point
+   49  ls R
+   50  ls -R
+   51  #wc
+   52  #wc -l
+   53  history>>exo2.txt
+   54  cd unix
+   55  ls -a
+   56  # ls -a nous montre les fichiers cache ave au debut un point
+   57  ls -R
+   58  #wc
+   59  #wc -l
+   60  history>>exo2.txt
